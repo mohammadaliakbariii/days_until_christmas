@@ -4,10 +4,37 @@
 
 body {
     background-image: url('snow.jpg');
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    min-height: 100vh;
-    margin :0px;
     font-family: 'poppins',sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin:0;
+}
+
+.countdown-container{
+    display: flex;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: -10rem;
+
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    margin: 0 2rem;
+}
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.5rem;
 }
