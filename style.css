@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('snow.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    margin :0px;
+    font-family: 'poppins',sans-serif;
+}
